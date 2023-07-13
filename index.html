@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="validate.js"></script>
+</head>
+<body>
+    <div class="main">
+        <h1>Registration Form</h1>
+        <div class="content">
+            <form action="" name="registration-form" id="registration-form" method="post">
+                <label>Enter Your Name :</label>
+                <input type="text" name="fname" id="fname" placeholder="Name">
+                <span class="error" id="fname-error"></span><br>
+
+                <label>Enter Email :</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <span class="error" id="email-error"></span><br>
+
+                <label>Enter Phone no :</label>
+                <input type="text" name="phno" id="phno" placeholder="Phone number">
+                <span class="error" id="phno-error"></span><br>
+
+                <label>Enter Password :</label>
+                <input type="password" name="psw" id="psw" placeholder="Password">
+                <span class="error" id="psw-error"></span><br>
+
+                <label>Confirm Password :</label>
+                <input type="password" name="cpsw" id="cpsw" placeholder="Password">
+                <span class="error" id="cpsw-error"></span><br>
+
+                <input type="submit" name="submit" id="submit" value="Submit"><br>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
